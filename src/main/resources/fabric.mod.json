@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "fishingutils",
+  "version": "${version}",
+
+  "name": "FishingUtils",
+  "description": "",
+  "authors": [],
+  "contact": {},
+
+  "license": "All-Rights-Reserved",
+  "icon": "assets/fishingutils/icon.png",
+
+  "environment": "client",
+  "entrypoints": {
+    "client": ["io.github.pjesek.fishingutils.client.FishingUtilsClient"],
+    "main": ["io.github.pjesek.fishingutils.FishingUtils"]
+  },
+
+  "mixins": [
+    "fishingutils.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-language-kotlin": ">=${kotlin_loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
