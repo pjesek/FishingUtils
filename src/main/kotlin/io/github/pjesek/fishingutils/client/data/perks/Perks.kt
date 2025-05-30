@@ -1,0 +1,29 @@
+package io.github.pjesek.fishingutils.client.data.perks
+
+enum class Perks() {
+    STRONG_HOOK,
+    WISE_HOOK,
+    GLIMMERING_HOOK,
+    GREEDY_HOOK,
+    LUCKY_HOOK,
+    XP_MAGNET,
+    FISH_MAGNET,
+    PEARL_MAGNET,
+    TREASURE_MAGNET,
+    SPIRIT_MAGNET,
+    BOOSTED_ROD,
+    SPEEDY_ROD,
+    GRACEFUL_ROD,
+    GLITCHED_ROD,
+    STABLE_ROD,
+    STRONG_POT,
+    WISE_POT,
+    GLIMMERING_POT,
+    GREEDY_POT,
+    LUCKY_POT,
+    ELUSIVE_CHANCE,
+    WAYFINDER_DATA,
+    PEARL_CHANCE,
+    TREASURE_CHANCE,
+    SPIRIT_CHANCE
+}
